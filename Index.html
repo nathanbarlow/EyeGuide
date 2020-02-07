@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<style>
+  .circle {
+    height: 20px;
+    width: 20px;
+    background-color: lightgrey;
+    /* background-color: #bbb; */
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 0%;
+    animation-name: CircleMovement;
+    animation-duration: 1.25s;
+    animation-iteration-count: infinite;
+  }
+
+  @keyframes CircleMovement{
+    0% {margin-left: 0%;}
+    50% {margin-left: 98%;}
+    100% {margin-left: 0%;}
+  }
+
+  html {
+    background-color: darkgrey;
+  }
+
+</style>
+
+<head>
+    <meta charset="UTF-8">
+    <title>EMDR Eye Guide</title>
+    <!-- <link rel="stylesheet" href="styles.css"> -->
+</head>
+
+<html>
+  <body>
+    <div class="circle">
+    </div>
+  </body>
+</html>
